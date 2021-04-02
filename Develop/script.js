@@ -10,5 +10,17 @@ function writePassword() {
 
 }
 
+// Password Variable 
+
+// Prompt Variables of:
+// length >= 8 characters && length <= 129 characters 
+// character types: uppercase, lowercase, special characters 
+// input variable that loops through answers to prompts so at least 1 of each char type is selected
+// result variable should be called to display selected input
+// password can be displayed as an alert as well 
+
+
+// Random Number Generator 
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
